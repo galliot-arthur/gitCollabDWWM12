@@ -6,11 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bertrand</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        .content{max-width: 1000px; margin: 0 auto;}
+        h1{text-align: center; border-top: solid 1px #ccc; border-bottom: solid 1px #ccc; width: 50%; margin: 0 auto; padding: 10px; clear: both;}
+       
+        nav{margin-bottom: 50px; float: right;}
+
+
+        section {display: flex; flex-wrap: wrap; margin: 50px 0 0 0; width: 100%;}
+        .flex-left{flex: 50%;}
+        .flex-right{flex: 50%;}
+
+        p{padding: 0 0 0 20px;}
+        p:first-child{margin-top: 0;}
+
+        img{width: 100%;}
+
+        @media (max-width: 768px) {
+            .flex-left, .flex-right{flex: 100%; padding: 0;}
+            p{padding: 0;}
+            p:first-child{margin-top: 20px;}
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Page Bertrand</h1>
-    <p>>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, libero omnis eaque harum asperiores nisi dicta pariatur optio esse consequatur sunt labore odit error blanditiis vero ut ipsum tempore est?</p>
+    <div class="content">
+        <nav>
+            <a class="navlinks" href="./index.html">index</a>
+            <a class="navlinks" href="./cc.html">cc</a>
+            <a class="navlinks" href="./page2.html">page2</a>
+            <a class="navlinks" href="./page3.html">page3</a>
+            <a class="navlinks" href="">page4</a>
+        </nav>
 
 
+        <h1>Page Bertrand</h1>
+        <section>
+            <div class="flex-left">
+                <img src="images/on-the-road-again.jpg" alt="On the road again">
+            </div>
+            <div class="flex-right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus posuere mauris, at cursus orci tempor eget. In eget diam est. Praesent nisl mi, porttitor sit amet tincidunt et, finibus vitae justo. Proin lacus mi, consectetur at feugiat non, accumsan ac nisl. Donec scelerisque viverra ex. Ut lobortis malesuada sem in elementum. Donec viverra neque dui, vitae commodo mauris rutrum ut. Fusce rhoncus aliquam ex a laoreet. Praesent neque lectus, ultrices vel molestie ac, congue nec purus. Suspendisse fringilla, ipsum nec feugiat dignissim, magna nibh iaculis mauris, a sagittis tellus urna in risus. Proin a leo vitae risus venenatis ullamcorper. Proin aliquam urna vitae ultricies tincidunt.</p>
+                <p>Pellentesque cursus est pretium metus lobortis, et accumsan ligula sodales. Sed placerat felis eget tortor finibus, vel condimentum nulla egestas. Sed congue ornare libero, quis lobortis nisl faucibus at. Integer nec hendrerit leo. Pellentesque hendrerit consequat erat. Mauris ac dapibus dolor. Nullam in odio eleifend libero pharetra fringilla. Nunc tellus nulla, iaculis sit amet mauris sit amet, tempor sodales sem. Praesent ac odio bibendum, posuere ex ut, tempor tortor.</p>
+                <p>Cras et lorem et libero lobortis luctus. Nam at tellus at mauris pretium gravida. Ut ligula lorem, malesuada et elementum non, eleifend vel metus. Integer id tincidunt lectus, quis tristique risus. Vestibulum augue eros, ullamcorper et tempor in, volutpat quis turpis. Praesent sem velit, vulputate nec faucibus feugiat, tempor vel lectus. Aenean sit amet lectus quis mauris tincidunt consectetur non ac nibh.</p>
+                <p>Integer interdum augue eget ligula dignissim finibus. Nulla facilisi. Quisque sit amet porta justo, non placerat orci. Morbi id consequat velit. Praesent finibus dolor eget lectus aliquet venenatis. Nulla ac orci a mi pretium interdum eget a lectus. Integer in ligula nisi. Proin tellus erat, efficitur a ultricies vitae, feugiat vel nisl. Phasellus laoreet mattis ante in congue. Cras venenatis, quam in eleifend sagittis, tellus lacus suscipit elit, ullamcorper condimentum massa tortor nec enim. Maecenas aliquam in lorem eu cursus. Donec ullamcorper elementum enim nec porttitor.</p></p> 
+                    
+            </div>
+        </section>
+    </div>
 </body>
 </html>
