@@ -9,14 +9,16 @@
 </head>
 <body>
     <header>
-        <h1 class="titrePage"><a href="">Bonjour tout le monde</a></h1>
-        <nav>
-            <a class="navlinks" href="./Page1.html">Nadia</a>
-            <a class="navlinks" href="./page3.html">Léo</a>
-            <a class="navlinks" href="./bertrand.html">Bertrand</a>
-            <a class="navlinks" href="./page4.html">Stéphane</a>
-            <a class="navlinks" href="./index.html">Arthur</a>
-        </nav>
+        <div class="header__conteneur">
+            <h1 class="titrePage"><a href="">Bonjour tout le monde</a></h1>
+            <nav>
+                <a class="navlinks" href="./Page1.html">Nadia</a>
+                <a class="navlinks" href="./page3.html">Léo</a>
+                <a class="navlinks" href="./bertrand.html">Bertrand</a>
+                <a class="navlinks" href="./page4.html">Stéphane</a>
+                <a class="navlinks" href="./index.html">Arthur</a>
+            </nav>
+        </div>
     </header>
     <div class="conteneur__side">
         <div class="conteneur">
@@ -43,16 +45,18 @@
             </section>
         </div>
         <aside>
-            <h4>Les montagnes russes vous parlent ? Dites le nous !</h4>
-            <form action="">
-                <input type="text" placeholder="Nom" required>
-                <input type="text" placeholder="Prénom" required>
-                <input type="text" placeholder="Message" required>
-                <input type="password" placeholder="Mot de passe" required>
-                <input type="email" placeholder="E-mail" required>
-                <input type="date" required>
-                <input type="button" value="send">
-            </form>
+            <div class="side__form">
+                <h4>Les montagnes russes vous parlent ? Dites le nous !</h4>
+                <form action="">
+                    <input type="text" placeholder="Nom" required><br />
+                    <input type="text" placeholder="Prénom" required><br />
+                    <input type="text" placeholder="Message" required><br />
+                    <input type="password" placeholder="Mot de passe" required><br />
+                    <input type="email" placeholder="E-mail" required><br />
+                    <input type="date" required><br />
+                    <input type="button" value="send"><br />
+                </form>
+            </div>
         </aside>
     </div>
     <footer>
