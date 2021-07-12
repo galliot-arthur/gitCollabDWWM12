@@ -1,2 +1,9 @@
 /* fichier style/css */
-
+body {
+    background-color: aliceblue;
+    color: rgb(3, 3, 51);
+    font-family: sans-serif;
+}
+li {
+    list-style: none;
+}
