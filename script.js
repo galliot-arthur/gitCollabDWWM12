@@ -1,19 +1,13 @@
-let a =""
-let b =""
+let notes = [0, 12, 10, 9, 15, 18]
 
-a=10
-b=2
-
-a=Math.pow(a,2)
-b=b*a
-a=b
-
-function logResultA(result) {
-    console.log("a est égale à :" +result)
-}
-function logResultB(result) {
-    console.log("b est égale à :" +result)
+function moyenneNotes(notes) {
+    sum=0
+    for (let i=0; i< notes.length; i++) {
+        sum += notes[i];
+    }
+    moyenne = sum/notes.length
+    return moyenne
 }
 
-logResultA(a)
-logResultB(b)
+console.log(moyenneNotes(notes))
+
